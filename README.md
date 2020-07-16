@@ -11,4 +11,6 @@ C++热更新方案
 
 5、先用./main 运行程序，然后使用 kill -SIGUSR1 `pidof main` 命令查看运行结果
 
+6、主程序里增加编译选项 -rdynamic -fpic， SO 里增加 --fpic
+
 
